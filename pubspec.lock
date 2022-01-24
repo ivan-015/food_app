@@ -81,12 +81,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  foodapp_comp:
+  food_app_components:
     dependency: "direct main"
     description:
-      path: "../foodapp_comp"
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: "4aa10935c334ce4f5f16d9d69addb7b23b2e8ccc"
+      url: "git@github.com:ivan-015/component-package-demo.git"
+    source: git
     version: "1.0.0+1"
   lints:
     dependency: transitive

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:foodapp_comp/widgets/symbols/foodcard.g.dart';
+import 'package:food_app_components/food_app_components.dart';
 
 class FoodApp extends StatefulWidget {
   const FoodApp({Key? key}) : super(key: key);

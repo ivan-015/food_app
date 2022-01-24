@@ -30,7 +30,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  foodapp_comp:
+  food_app_components:
     git: git@github.com:ivan-015/component-package-demo.git
 
   # The following adds the Cupertino Icons font to your application.
