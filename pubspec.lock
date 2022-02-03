@@ -95,13 +95,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  food_app_components:
+  food_app_comps:
     dependency: "direct main"
     description:
       path: "."
       ref: HEAD
-      resolved-ref: c1da86d5ef4a8ce74dba7355a91339d928aad439
-      url: "git@github.com:ivan-015/component-package-demo.git"
+      resolved-ref: "02afa284124dcd75cb604f4ffaba97661dca08b8"
+      url: "git@github.com:ivan-015/food_app_comps.git"
     source: git
     version: "1.0.0+1"
   lints:
