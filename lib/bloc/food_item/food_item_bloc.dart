@@ -6,13 +6,13 @@ class FoodItemBloc extends BaseFoodItemBloc {
 
   /// Method that emits a new state with an added item
   @override
-  void onAddFoodItem(AddFoodItem event, Emitter emit) {
+  void onAddItem(AddFoodItem event, Emitter emit) {
     emit(BaseFoodItemState(numberOfItems: state.numberOfItems + 1));
   }
 
   /// Method that emits a new state with a removed item
   @override
-  void onRemoveFoodItem(RemoveFoodItem event, Emitter emit) {
+  void onRemoveItem(RemoveFoodItem event, Emitter emit) {
     if (state.numberOfItems > 0) {
       emit(BaseFoodItemState(numberOfItems: state.numberOfItems - 1));
     }
