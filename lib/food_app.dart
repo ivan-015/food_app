@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:food_app/bloc/food_item/food_item_bloc.dart';
-import 'package:food_app_components/bloc/food_item/food_item_bloc.dart';
-import 'package:food_app_components/food_app_components.dart';
+import 'package:food_app_comps/bloc/base_food_item_bloc.dart';
+import 'package:food_app_comps/widgets/page_1/foodcard.g.dart';
 
 class FoodApp extends StatefulWidget {
   const FoodApp({Key? key}) : super(key: key);
